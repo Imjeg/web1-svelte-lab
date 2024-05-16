@@ -1,9 +1,10 @@
 <script>
+let username = "@johnseena";
 </script>
 
 <figure>
     <img src ="https://placehold.co/150" alt="Placeholder">
-    <figcaption>@username</figcaption>
+    <figcaption>{username}</figcaption>
 </figure>
 
 <style>
