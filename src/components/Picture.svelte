@@ -8,4 +8,7 @@ let username = "@johnseena";
 </figure>
 
 <style>
+figure{
+    margin: 0;
+}
 </style>

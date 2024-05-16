@@ -1,16 +1,11 @@
 <script>
-   let navItems =[
-    {text: "Home", href: "/"},
-    {text: "About", href: "/about"},
-   {text: "My Cards", href: "/cards"},
-{text: "Contact", href: "/contact"},
-   ];
+   export let nanItems;
 </script>
 
 <nav>
 <ul>
  {#each nanItems as item}
- <li><a href-{item</a></li>
+ <li><a href-{item.href}</a></li>
  {/each}
  </ul>
 </nav>
