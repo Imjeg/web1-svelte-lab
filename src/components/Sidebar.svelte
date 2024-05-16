@@ -1,3 +1,8 @@
+<script>
+   let navItems =[]
+</script>
+
+
 <aside>
     <ul>
         <li><a href="#">Link 1</a></li>
