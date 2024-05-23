@@ -1,11 +1,11 @@
 <script>
-   export let nanItems;
+   let navItems = [];
 </script>
 
 <nav>
 <ul>
- {#each nanItems as item}
- <li><a> href-{item.href}</a></li>
+ {#each navItems as item}
+ <li><a href={item.href}>{item.text}</a></li>
  {/each}
  </ul>
 </nav>
@@ -38,12 +38,11 @@
 
     li {
         list-style: none;
-        margin-left
     }
 
     a {
         text-decoration: none;
-        color
+        color: black;
     }
 
     a:hover {

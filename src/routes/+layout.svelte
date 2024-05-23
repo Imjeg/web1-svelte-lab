@@ -12,7 +12,7 @@
 
 <div class="container">
     <header><Header /></header>
-    <div class="left-side"><Sidebar {navItems}
+    <div class="left-side"><Sidebar {navItems} />
         <main>
             <slot />
         </main>
@@ -22,10 +22,8 @@
 
 
 <style>
-    container{
+    .container{
         display: flex;
         gap: 3em;
     }
-
-
 </style>
