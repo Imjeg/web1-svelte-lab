@@ -1,8 +1,6 @@
 <script>
     import Card from '../components/Card.svelte' ;
-    import Header from '../components/Header.svelte';
-    import Footer from '../components/Footer.svelte';
-    import Sidebar from '../components/Sidebar.svelte';
+    
 
     let navItems =[
     {text: "Home", href: "/"},
@@ -27,8 +25,5 @@
 <Footer />
 
 <style>
-    section{
-        display: flex;
-        gap: 3em;
-    }
+    
 </style>

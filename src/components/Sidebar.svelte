@@ -5,7 +5,7 @@
 <nav>
 <ul>
  {#each nanItems as item}
- <li><a href-{item.href}</a></li>
+ <li><a> href-{item.href}</a></li>
  {/each}
  </ul>
 </nav>
@@ -43,7 +43,7 @@
 
     a {
         text-decoration: none;
-        color: #333;
+        color
     }
 
     a:hover {
