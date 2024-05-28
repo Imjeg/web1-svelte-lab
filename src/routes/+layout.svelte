@@ -23,7 +23,10 @@
 
 <style>
     .container{
-        display: flex;
-        gap: 3em;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template: auto 1fr auto / auto 1fr;
+        gap: 0px;
     }
 </style>
