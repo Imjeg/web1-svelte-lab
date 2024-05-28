@@ -1,5 +1,6 @@
 <script>
-let username = "@johnseena";
+    export let person;
+let username = `${person.username}`;
 </script>
 
 <figure>

@@ -5,7 +5,7 @@
 </script>
 
 <section>
-    <Picture />
+    <Picture {person} />
     <Details {person} />
 </section>
 
