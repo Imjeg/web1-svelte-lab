@@ -1,5 +1,7 @@
 <script>
     import Card from '../components/Card.svelte' ;
+    export let data;
+    console.log(data.people);
     
 
     let navItems =[
@@ -21,8 +23,7 @@
     <Card />
     
 </section>
-
-<Footer />
+<Footer></Footer>
 
 <style>
     

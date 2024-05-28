@@ -1,10 +1,10 @@
 <script>
   let person = {
-    firstName = "John",
-    lastName = "Seena",
-    age = 72,
+    firstName: "John",
+    lastName: "Seena",
+    age: 72,
     location: "Dunedin",
-    occupation: "Developer
+    occupation: "Developer",
   }
 </script>
 
