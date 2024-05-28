@@ -1,11 +1,12 @@
 <script>
     import Picture from "./Picture.svelte";
     import Details from "./Details.svelte";
+    export let person;
 </script>
 
 <section>
     <Picture />
-    <Details />
+    <Details {person} />
 </section>
 
 <style>

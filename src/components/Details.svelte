@@ -1,25 +1,17 @@
 <script>
-  let person = {
-    firstName: "John",
-    lastName: "Seena",
-    age: 72,
-    location: "Dunedin",
-    occupation: "Developer",
-  }
+  export let person;
 </script>
 
 <!-- details of the person -->
 <d1>
     <dt>First Name</dt>
-    <dd>{person.firstName}</dd>
-    <dt>Last Name</dt>
-    <dd>{person.lastName}</dd>
-    <dt>Age</dt>
-    <dd>{person.age}</dd>
+    <dd>{person.name}</dd>
+    <dt>Email</dt>
+    <dd>{person.email}</dd>
     <dt>Location</dt>
-    <dd>{person.location}</dd>
-    <dt>Occupation</dt>
-    <dd>{person.occupation}</dd>
+    <dd>{person.address.city}</dd>
+    <dt>Website</dt>
+    <dd>{person.website}</dd>
 </d1>
 
 
