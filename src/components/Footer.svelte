@@ -1,13 +1,15 @@
 <script>
+
 </script>
 
 <footer>
-  <p>This is my footer</p>
-</footer>
+  <p> This is my footer</p>
+  </footer>
+
 
 <style>
-  footer {
+  footer{
     background-color: rebeccapurple;
-    grid-column: 1/3;
-  }
+    grid-column: 1 / 3;
+}
 </style>
